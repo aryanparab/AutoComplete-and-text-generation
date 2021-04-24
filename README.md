@@ -1,4 +1,4 @@
-##AutoComplete-and-text-generation
+ # AutoComplete-and-text-generation
 
 This repo consists of two projects.
 1) Text Generator: In this code, the program asks the user to enter a few lines and number of words to predict. Based on the lines provided, it will auto generate text for the next n words(where n is the number of words entered by user). To run this , clone the repo and download all requirements. Then run app.py in terminal and paste the link in browser.
