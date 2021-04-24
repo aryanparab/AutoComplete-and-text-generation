@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Generator</title>
+</head>
+<body>
+<form method="POST">
+	<label>Enter starting lines : </label>
+	<input type="text" placeholder="Mumbai currently has a huge number of coronavirus cases" id="text" name="text"/>
+	<label>Enter number of words : </label>
+	<input type="text" name="number" placeholder="100">
+	<input type="submit" value = "Generate Text ">
+	{% if context[0] != '' %}
+	<h2>Generated Text for topic : {{context[1]}}</h2>
+	<p>{{context[0]}}</p>
+	<h4>No of words : {{context[2]}}</h4>
+	{% endif %}
+</form>
+</body>
+</html>
